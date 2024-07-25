@@ -1,0 +1,18 @@
+#incluir  <stdio.h>
+
+int  principal () {
+    int  edad ;
+
+    printf ( "edad?" );
+    scanf ( "%d" , & edad );
+
+    si ( edad  <  18 ) {
+        printf ( "menor de edad" );
+    } de lo contrario  si ( edad <= 64 ) {
+        printf ( "adulto" );
+    } demás {
+        printf ( "viejo" );
+    }
+
+    devuelve  0 ;
+}
