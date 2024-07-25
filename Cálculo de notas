@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int nota;
+    
+    printf("calificación? (0-100)");
+    scanf("%d", &nota);
+    
+    if (grade >= 90) {
+        printf("A");
+    } else if (nota >= 80) {
+        printf("B");
+    } else if (nota >= 70) {
+        printf("C");
+    } else if (nota >= 60) {
+        printf("D");
+    } else {
+        printf("F");
+    }
+    
+    return 0;
+}
